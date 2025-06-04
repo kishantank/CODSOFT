@@ -1,0 +1,28 @@
+/* src/pages/Login.css */
+.login-page {
+    padding: 2rem;
+  }
+  
+  .login-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    gap: 1rem;
+  }
+  
+  .login-form input {
+    padding: 10px;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+  }
+  
+  .login-form button {
+    padding: 10px;
+    background-color: #4b0082;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  

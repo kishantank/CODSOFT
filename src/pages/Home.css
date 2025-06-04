@@ -1,0 +1,55 @@
+/* src/pages/Home.css */
+.home {
+    height: calc(100vh - 70px); /* Adjust for navbar height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    color: white;
+    text-align: center;
+    padding: 2rem;
+  }
+  
+  .home__hero h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+  
+  .home__hero p {
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+  }
+  
+  .home__buttons {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+  }
+  
+  .btn {
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: background-color 0.3s;
+  }
+  
+  .btn.primary {
+    background-color: white;
+    color: #2575fc;
+  }
+  
+  .btn.primary:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .btn.secondary {
+    background-color: #4b0082;
+    color: white;
+  }
+  
+  .btn.secondary:hover {
+    background-color: #370062;
+  }
+  

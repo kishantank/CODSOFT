@@ -1,0 +1,19 @@
+/* src/pages/JobDetail.css */
+.job-detail {
+    padding: 2rem;
+  }
+  
+  .apply-btn {
+    padding: 10px 20px;
+    background-color: #2575fc;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .apply-btn:hover {
+    background-color: #0b55d4;
+  }
+  
